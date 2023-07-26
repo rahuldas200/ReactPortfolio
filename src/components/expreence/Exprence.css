@@ -1,0 +1,65 @@
+.expreince_container {
+    display: grid;
+    grid-template-columns:1fr 1fr ;
+    gap: 2rem;
+}
+.expreince_container > div {
+    background-color: var(--color-bg-veriantn);
+    padding: 2.4rem 5rem;
+    border-radius: 2rem;
+    border: 1px solid transparent;
+    transition: var(--transition);
+}
+.expreince_container > div:hover{
+    background: transparent;
+    border-color: var(--color-primary-variant );
+}
+
+.expreince_container > div h3 {
+    text-align: center;
+    margin-bottom: 2rem;
+    color: var(--color-primary);
+}
+.exprience_content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    row-gap: 2rem;
+}
+
+.exprience_details {
+    display: flex;
+    gap: 1rem;
+}
+.exprience_details_icon {
+    margin-top: 6px;
+    color: var(--color-primary);
+}
+
+/* ********midea Query for midiam device*************** */
+
+@media screen and (max-width :1024px) {
+    .expreince_container{
+        grid-template-columns: 1fr;
+    }
+    .expreince_container > div {
+        width: 80%;
+        padding: 2rem;
+        margin: 0 auto;
+    }
+    .exprience_content {
+        padding: 1rem;
+    }
+    
+}
+
+
+@media screen and (max-width :1024px) {
+    .expreince_container{
+        gap: 1rem;
+    }
+
+    .expreince_container > div {
+        width: 100%;
+        padding: 2rem 1rem;
+    }
+}
