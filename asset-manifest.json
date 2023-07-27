@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/ReactPortfolio/static/css/main.27e2ced0.css",
-    "main.js": "/ReactPortfolio/static/js/main.76f068b8.js",
+    "main.css": "/ReactPortfolio/static/css/main.bf9242b6.css",
+    "main.js": "/ReactPortfolio/static/js/main.cf668a8d.js",
     "static/media/IMG_8318.jpg": "/ReactPortfolio/static/media/IMG_8318.6e8efdb29f04d5abff0f.jpg",
     "static/media/portfolio5.png": "/ReactPortfolio/static/media/portfolio5.a82ae9a163c1ac5e3a07.png",
     "static/media/cv-Rahul.pdf": "/ReactPortfolio/static/media/cv-Rahul.fd7a332202371854aaf4.pdf",
@@ -12,11 +12,11 @@
     "static/media/portfolio3.jpg": "/ReactPortfolio/static/media/portfolio3.cbab42559fe73e73906f.jpg",
     "static/media/portfolio4.jpg": "/ReactPortfolio/static/media/portfolio4.6bf60cbb8fe5f7d7af5d.jpg",
     "index.html": "/ReactPortfolio/index.html",
-    "main.27e2ced0.css.map": "/ReactPortfolio/static/css/main.27e2ced0.css.map",
-    "main.76f068b8.js.map": "/ReactPortfolio/static/js/main.76f068b8.js.map"
+    "main.bf9242b6.css.map": "/ReactPortfolio/static/css/main.bf9242b6.css.map",
+    "main.cf668a8d.js.map": "/ReactPortfolio/static/js/main.cf668a8d.js.map"
   },
   "entrypoints": [
-    "static/css/main.27e2ced0.css",
-    "static/js/main.76f068b8.js"
+    "static/css/main.bf9242b6.css",
+    "static/js/main.cf668a8d.js"
   ]
 }
