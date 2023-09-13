@@ -13,7 +13,7 @@ const Exprence = () => {
 
       <div className="container expreince_container">
         <div className="exprience_frontend">
-          <h3>Fontend Developer</h3>
+          <h3>Frontend Developer</h3>
           <div className="exprience_content">
             <article className='exprience_details'>
             <BiLogoHtml5 className='exprience_details_icon'/>
@@ -54,14 +54,6 @@ const Exprence = () => {
                 <small className='text-light'>Exprience</small>
               </div>
             </article>
-
-            {/* <article className='exprience_details'>
-            <BsPatchCheckFill className='exprience_details_icon'/>
-              <div>
-                <h4>HTML</h4>
-                <small className='text-light'>Exprience</small>
-              </div>
-            </article> */}
           </div>
         </div>
 

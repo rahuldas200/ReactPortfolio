@@ -26,15 +26,14 @@
     transform: rotate(0);
 }
 .about_cards {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    display: flex;
     gap: 1.5rem;
 }
 .about_card {
     background: var(--color-primary-variant);
     border: 1px solid transparent;
     border-radius: 1rem;
-    padding: 2rem;
+    padding: 1.5rem 3rem ;
     text-align: center;
     transition: var(--transition);
 }
@@ -69,6 +68,12 @@
         width: 50%;
         margin: 2rem auto 4rem;
     }
+    .about_cards{
+        justify-content: center;
+    }
+    .about_card{
+        width: 40%;
+    }
 
     .about_contant p {
         margin: 1rem 0 1.5rem;
@@ -76,21 +81,30 @@
 
  }
 
- @media screen and (max-width : 600px) {
+ @media screen and (max-width : 480px) {
     .about_me {
-        width: 65%;
-        margin: 0 auto 3rem;
+        width: 50%;
+        text-align: center;
+        margin: 0 1.75rem 5rem;
     }
     .about_cards {
-        grid-template-columns: 1fr 1fr;
+        flex-direction: row;
         gap: 1rem;
+       justify-content: center;
+
+    }
+    .about_card{
+
+        width: 40%;
     }
     .about_contant {
         text-align: center;
         
     }
+ 
     .about_contant p {
         margin: 1.5rem 0;
+        font-size: 10px;
     }
 
 

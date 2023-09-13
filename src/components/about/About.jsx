@@ -1,6 +1,6 @@
 import React from 'react'
 import './About.css'
-import ME from "../../assets/IMG_8318.jpg"
+import ME from "../../assets/RahulIMG-1.jpg"
 import {FaAward} from 'react-icons/fa';
 import {FiUsers} from 'react-icons/fi';
 import {VscFolderLibrary} from 'react-icons/vsc';
@@ -27,24 +27,18 @@ const about = () => {
               <small> Fresher</small>
             </article>
 
-            {/* <article className='about_card'>
-              <FiUsers className= "about_icon"/>
-              <h5>Client</h5>
-              <small>200+ client </small>
-            </article> */}
-
             <article className='about_card'>
               <VscFolderLibrary className= "about_icon"/>
-              <h5>pojects</h5>
-              <small> 3+ pojects done</small>
+              <h5>projects</h5>
+              <small> 3+ projects done</small>
             </article>
 
           </div>
           
 
           <p>I am a punctual and motivated individual who can work in a busy environment and produce high work standards.
-I am an excellent team worker who can take instructions from all levels and build good working relationships with
-colleagues. I am flexible, and reliable and possess excellent timekeeping skills.</p>
+              I am an excellent team worker who can take instructions from all levels and build good working relationships with
+              colleagues. I am flexible, and reliable and possess excellent timekeeping skills.</p>
           <a href="#contact" className='btn btn-primary'>Let's Talk</a>
 
         </div>

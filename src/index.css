@@ -118,7 +118,7 @@ a:hover{
 
   /* **************** MEDIA QUERY (midium device)************* */
 
-  @media screen and (max-width : 600px) {
+  @media screen and (max-width : 480px) {
     .container{
         width: var(--container-width-sm);
     }
