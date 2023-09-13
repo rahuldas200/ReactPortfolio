@@ -1,22 +1,18 @@
 {
   "files": {
-    "main.css": "/ReactPortfolio/static/css/main.bf9242b6.css",
-    "main.js": "/ReactPortfolio/static/js/main.e6c949fa.js",
-    "static/media/IMG_8318.jpg": "/ReactPortfolio/static/media/IMG_8318.6e8efdb29f04d5abff0f.jpg",
-    "static/media/portfolio5.png": "/ReactPortfolio/static/media/portfolio5.a82ae9a163c1ac5e3a07.png",
+    "main.css": "/ReactPortfolio/static/css/main.9830355d.css",
+    "main.js": "/ReactPortfolio/static/js/main.323075cf.js",
+    "static/media/Snake.png": "/ReactPortfolio/static/media/Snake.2a249783597bfc89f2be.png",
+    "static/media/project1.png": "/ReactPortfolio/static/media/project1.5776441f9760aac8c605.png",
+    "static/media/Weather.png": "/ReactPortfolio/static/media/Weather.7e8666695e66d7e2a96a.png",
     "static/media/RahulIMG-1.jpg": "/ReactPortfolio/static/media/RahulIMG-1.b3bd219112804713b204.jpg",
     "static/media/Rahul_Resume.pdf": "/ReactPortfolio/static/media/Rahul_Resume.e21f0832a068733a46fb.pdf",
-    "static/media/portfolio2.jpg": "/ReactPortfolio/static/media/portfolio2.ae187bc4e43ae6dbc263.jpg",
-    "static/media/portfolio6.jpg": "/ReactPortfolio/static/media/portfolio6.72d1107e313049cf15a7.jpg",
-    "static/media/portfolio1.jpg": "/ReactPortfolio/static/media/portfolio1.f5e72352e5aa840702b8.jpg",
-    "static/media/portfolio3.jpg": "/ReactPortfolio/static/media/portfolio3.cbab42559fe73e73906f.jpg",
-    "static/media/portfolio4.jpg": "/ReactPortfolio/static/media/portfolio4.6bf60cbb8fe5f7d7af5d.jpg",
     "index.html": "/ReactPortfolio/index.html",
-    "main.bf9242b6.css.map": "/ReactPortfolio/static/css/main.bf9242b6.css.map",
-    "main.e6c949fa.js.map": "/ReactPortfolio/static/js/main.e6c949fa.js.map"
+    "main.9830355d.css.map": "/ReactPortfolio/static/css/main.9830355d.css.map",
+    "main.323075cf.js.map": "/ReactPortfolio/static/js/main.323075cf.js.map"
   },
   "entrypoints": [
-    "static/css/main.bf9242b6.css",
-    "static/js/main.e6c949fa.js"
+    "static/css/main.9830355d.css",
+    "static/js/main.323075cf.js"
   ]
 }
