@@ -1,7 +1,16 @@
+
 .about_container {
     display: grid;
     grid-template-columns: 35% 50%;
     gap: 15%;
+   
+}
+
+.about_h5{
+    font-size: 1rem;
+}
+.about_h2{
+    font-size: 2rem;
 }
 .about_me{
     width: 21rem;
@@ -15,12 +24,15 @@
     place-items: center;
 }
 .about_me_img {
-    width: 21rem;
+    max-width: 19rem;
     border-radius: 2rem;
     overflow: hidden;
     transform: rotate(10deg);
     transition: var(--transition);
+    filter: drop-shadow(0 0 0.75rem rgb(0, 0, 0));
+    
 }
+
 
 .about_me_img:hover{
     transform: rotate(0);
@@ -30,19 +42,32 @@
     gap: 1.5rem;
 }
 .about_card {
-    background: var(--color-primary-variant);
+    width: 40%;
+    background: black;
+    color: beige;
     border: 1px solid transparent;
     border-radius: 1rem;
-    padding: 1.5rem 3rem ;
+    padding: 1rem 1rem ;
     text-align: center;
     transition: var(--transition);
 }
+.about_card_small{
+    font-size: 0.8rem;
+}
 .about_card:hover{
     background: transparent;
-    border-color: var(--color-primary-variant);
+    border-color: black ;
+    color: black;
+    .about_icon{
+        color: black;
+    }
+    .about_card_small{
+        color: black;
+    }
+    
 }
 .about_icon {
-    color: var(--color-primary);
+    color: #fff;
     font-size: 2.4rem;
     margin-bottom: 1rem;
 
@@ -51,12 +76,13 @@
     font-size: 0.95rem;
 }
 .about_card small {
-    font-size: 0.7rem; color: var(--color-light);
+    font-size: 0.85rem; 
 
 }
 .about_contant p {
     margin: 2rem 0 2.6rem;
-    color: var(--color-light);
+    /* color: var(--color-light); */
+    color: black;
 }
 
 @media screen and (max-width : 1024px) {
@@ -84,22 +110,34 @@
  @media screen and (max-width : 480px) {
     .about_me {
         width: 50%;
-        text-align: center;
-        margin: 0 1.75rem 5rem;
+        height: 70%;
+        place-items: center;
+    }
+    .about_me_img{
+        width: 82%;
     }
     .about_cards {
         flex-direction: row;
         gap: 1rem;
-       justify-content: center;
+        justify-content: center;
 
     }
     .about_card{
 
         width: 40%;
     }
+    .about_icon{
+        font-size: 1.5rem;
+    }
     .about_contant {
         text-align: center;
         
+    }
+    .about_card h5{
+        font-size: 0.85rem;
+    }
+    .about_card small{
+        font-size:0.65rem;
     }
  
     .about_contant p {

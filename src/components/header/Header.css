@@ -39,9 +39,9 @@ header {
 
 .me {
     background: linear-gradient(var(--color-primary),transparent);
-    width: 22rem;
+    max-width: 22rem;
     overflow: hidden;
-    height: 30rem;
+    /* height: 30rem; */
     position: absolute;
     left: calc(50% - 11rem);
     object-fit: fill;
@@ -79,10 +79,19 @@ header {
         height: 100vh;
 
     }
+    .header_container h1{
+        font-size: 1.5rem;
+    }
 
     .hader-socials,
     .scrool_down {
         display: none;
+    }
+    .cta a{
+        font-size: 0.8rem;
+    }
+    .me{
+        margin-left: 1rem;
     }
 
  }

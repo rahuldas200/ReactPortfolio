@@ -1,94 +1,110 @@
 import React from 'react'
 import "./Exprence.css"
-import {BsPatchCheckFill} from 'react-icons/bs';
-import {BiLogoHtml5, BiLogoCss3,BiLogoMongodb, BiLogoJavascript,BiLogoTailwindCss,BiLogoReact} from 'react-icons/bi';
-import {GrMysql} from 'react-icons/gr';
-import {SiExpress} from 'react-icons/si';
+import cpp from '../../assets/icon/Cpp_1.svg';
+import javaScrit from "../../assets/icon/icons-javascript.svg"
+import Html from "../../assets/icon/icons-html-5.svg"
+import Css from "../../assets/icon/Css.svg"
+import rc from "../../assets/icon/react.svg"
+import tailwind from "../../assets/icon/Tailwind.svg"
+import express from "../../assets/icon/Express.svg"
+import mongoDb from "../../assets/icon/icons-mongodb.svg"
+import MySql from "../../assets/icon/MySql.svg"
+import git from "../../assets/icon/icons-github.svg"
+import vs from "../../assets/icon/icons-visual-studio-code-2019.svg"
+import postMan from "../../assets/icon/PostMan.svg"
+
 
 const Exprence = () => {
   return (
     <section id='exprience' >
       <h5>What Skills I Have</h5>
-      <h2>My Exprience</h2>
+      <h2>My Skill</h2>
 
-      <div className="container expreince_container">
-        <div className="exprience_frontend">
-          <h3>Frontend Developer</h3>
-          <div className="exprience_content">
-            <article className='exprience_details'>
-            <BiLogoHtml5 className='exprience_details_icon'/>
-              <div>
-                <h4>HTML</h4>
-                <small className='text-light'>Exprience</small>
-              </div>
-            </article>
-
-            <article className='exprience_details'>
-            <BiLogoCss3 className='exprience_details_icon'/>
-              <div>
-                <h4>CSS</h4>
-                <small className='text-light'>Exprience</small>
-              </div>
-            </article>
-
-            <article className='exprience_details'>
-            <BiLogoJavascript className='exprience_details_icon'/>
-              <div>
-                <h4>JavaScript</h4>
-                <small className='text-light'>Exprience</small>
-              </div>
-            </article>
-
-            <article className='exprience_details'>
-            <BiLogoReact className='exprience_details_icon'/>
-              <div>
-                <h4>React Js</h4>
-                <small className='text-light'>Exprience</small>
-              </div>
-            </article>
-
-            <article className='exprience_details'>
-            <BiLogoTailwindCss className='exprience_details_icon'/>
-              <div>
-                <h4>Tailwind CSS</h4>
-                <small className='text-light'>Exprience</small>
-              </div>
-            </article>
-          </div>
+      <div className='exprience_container'>
+        <div className="expreience_tag">
+          <div className="icon">
+              <img src={cpp} alt="" />
+          </div>        
+          <h5 className='icon_name'>Post man</h5>
         </div>
 
-        <div className="exprence-backend">
-        <div className="exprience_frontend">
-          <h3>Backend Developer</h3>
-          <div className="exprience_content">
-          <article className='exprience_details'>
-            <GrMysql className='exprience_details_icon'/>
-              <div>
-                <h4>MySql</h4>
-                <small className='text-light'>Exprience</small>
-              </div>
-            </article>
-
-            <article className='exprience_details'>
-            <BiLogoMongodb className='exprience_details_icon'/>
-              <div>
-                <h4>Mongodb</h4>
-                <small className='text-light'>Exprience</small>
-              </div>
-            </article>
-
-            <article className='exprience_details'>
-            <SiExpress className='exprience_details_icon'/>
-              <div>
-                <h4>Express Js</h4>
-                <small className='text-light'>Exprience</small>
-              </div>
-            </article>
-          </div>
+        <div className="expreience_tag">
+          <div className="icon">
+              <img src={javaScrit} alt="" />
+          </div>        
+          <h5 className='icon_name'>javascript</h5>
         </div>
-          
 
+        <div className="expreience_tag">
+          <div className="icon">
+              <img src={Html} alt="" />
+          </div>        
+          <h5 className='icon_name'>HTML</h5>
         </div>
+
+        <div className="expreience_tag">
+          <div className="icon">
+              <img src={Css} alt="" />
+          </div>        
+          <h5 className='icon_name'>CSS</h5>
+        </div>
+
+        <div className="expreience_tag">
+          <div className="icon_ta">
+              <img src={tailwind} alt=""/>
+          </div>        
+          <h5 className='icon_name'>Tailwind Css</h5>
+        </div>
+
+        <div className="expreience_tag">
+          <div className="icon">
+              <img src={rc} alt="" />
+          </div>        
+          <h5 className='icon_name'>React</h5>
+        </div>
+
+        <div className="expreience_tag">
+          <div className="icon">
+              <img src={express} alt="" />
+          </div>        
+          <h5 className='icon_name'>Express js</h5>
+        </div>
+
+        <div className="expreience_tag">
+          <div className="icon">
+              <img src={mongoDb} alt="" />
+          </div>        
+          <h5 className='icon_name'>MongoDb</h5>
+        </div>
+
+        <div className="expreience_tag">
+          <div className="icon">
+              <img src={MySql} alt="" />
+          </div>        
+          <h5 className='icon_name'>MySql</h5>
+        </div>
+
+        <div className="expreience_tag">
+          <div className="icon">
+              <img src={git} alt="" />
+          </div>        
+          <h5 className='icon_name'>GitHub</h5>
+        </div>
+
+        <div className="expreience_tag">
+          <div className="icon">
+              <img src={postMan} alt="" />
+          </div>        
+          <h5 className='icon_name'>Post Man</h5>
+        </div>
+
+        <div className="expreience_tag">
+          <div className="icon">
+              <img src={vs} alt="" />
+          </div>        
+          <h5 className='icon_name'>Vs code</h5>
+        </div>
+
       </div>
     </section>
   )

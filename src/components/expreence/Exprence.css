@@ -1,65 +1,57 @@
-.expreince_container {
+.exprience_container{
+    max-width: 1250px;
+    margin: 1rem auto;
     display: grid;
-    grid-template-columns:1fr 1fr ;
-    gap: 2rem;
-}
-.expreince_container > div {
-    background-color: var(--color-bg-veriantn);
-    padding: 2.4rem 5rem;
-    border-radius: 2rem;
-    border: 1px solid transparent;
-    transition: var(--transition);
-}
-.expreince_container > div:hover{
-    background: transparent;
-    border-color: var(--color-primary-variant );
+    grid-template-columns: repeat(7,1fr);
+    align-content: center;
+    justify-content: center;
+    row-gap: 1rem;
+    column-gap: 0.5rem;
 }
 
-.expreince_container > div h3 {
-    text-align: center;
-    margin-bottom: 2rem;
-    color: var(--color-primary);
+.expreience_tag{
+    max-width: 8rem;
+    margin: 0 auto;
+    background-color: rgb(255, 255, 255);
+    padding: 1rem;
+    border-radius: 0.3rem;
+    display: flex; 
+    flex-direction: column;
+    gap: 9px;
+    justify-content: center; 
+    align-items: center;  
+    transition-duration: 0.3s;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
-.exprience_content {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    row-gap: 2rem;
+    .icon{
+    width: 5rem;
 }
-
-.exprience_details {
-    display: flex;
-    gap: 1rem;
+.icon_ta{
+    width: 5rem;
+    height: 5rem;
 }
-.exprience_details_icon {
-    margin-top: 6px;
-    color: var(--color-primary);
+.icon_name{
+    font-size: 0.8rem;
+    font-weight: 600;
 }
-
-/* ********midea Query for midiam device*************** */
-
-@media screen and (max-width :1024px) {
-    .expreince_container{
+.expreience_tag:hover{
+    scale: 1.1;
+    transition-duration: 0.6s;
+}
+@media screen and (max-width : 1024px) {
+    .exprience_container{
+        grid-template-columns: repeat(4,1fr);
+    }
+}
+@media screen and (max-width : 650px) {
+    .exprience_container{
+        grid-template-columns: repeat(3,1fr);
+    }
+}
+@media screen and (max-width : 480px) {
+    .exprience_container{
         grid-template-columns: 1fr;
+        justify-content: center;
     }
-    .expreince_container > div {
-        width: 80%;
-        padding: 2rem;
-        margin: 0 auto;
-    }
-    .exprience_content {
-        padding: 1rem;
-    }
-    
-}
-
-
-@media screen and (max-width :1024px) {
-    .expreince_container{
-        gap: 1rem;
-    }
-
-    .expreince_container > div {
-        width: 100%;
-        padding: 2rem 1rem;
-    }
+  
 }

@@ -1,5 +1,6 @@
 nav {
-    background: rgba(0, 0, 0, 0.3) ;
+    /* background: rgba(0, 0, 0, 0.3) ; */
+    background-color: rgb(24, 23, 23);
     width: max-content;
     display: block;
     padding: 0.7rem 1.7rem;
@@ -18,15 +19,16 @@ nav a {
   padding: 0.9rem;
   border-radius: 50%;
   display: flex;
-  color: var(--color-light);
+  /* color: var(--color-light); */
+  color: rgb(255, 255, 255);
   font-size: 1.1rem;
 
 }
 nav a:hover{
-    background: rgba(0, 0, 0, 0.3);
+    background: rgba(0, 0, 0, 0.547);
     
 }
 nav a.active {
-    background: var(--color-primary);
-    color: var(--color-white);
+    /* background: var(--color-primary); */
+    color: rgb(255, 16, 16);
 }

@@ -4,21 +4,29 @@
     gap: 2.5rem;
 }
 .project_item {
-    background: var(--color-primary-variant);
+
+    background: rgb(250, 248, 248);
     padding: 1.3rem;
-    border-radius: 2rem;
+    border-radius: 1rem;
     border: 1px solid transparent;
     transition: var(--transtion);
-
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
 }
+
 
 .project_item:hover {
     border-color: var(--color-bg-variant);
     background-color: transparent;
+    scale: 1.05;
+    transition: 0.8s;
 }
 
 .project_item_img {
-    border-radius: 1.5rem;
+    border-radius: 0.5rem;
     overflow: hidden;
 }
 .project_item h3 {
@@ -32,13 +40,16 @@
 
 @media screen and (max-width: 1024px) {
     .project_container {
-        grid-template-columns: 1fr 1fr;
-        gap: 1.2rem;
+        grid-template-columns: repeat(2,1fr);
+        gap: 1.3rem;
+    }
+    .project-3{
+        align-items: center;
     }
     
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 460px) {
     .project_container {
         grid-template-columns: 1fr;
         gap: 1rem;

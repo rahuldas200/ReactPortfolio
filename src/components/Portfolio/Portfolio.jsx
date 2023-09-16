@@ -1,5 +1,6 @@
 import React from 'react'
 import './Portfolio.css'
+import {BsGithub} from 'react-icons/bs'
 import IMG1 from '../../assets/project1.png'
 import IMG2 from '../../assets/Snake.png'
 import IMG3 from "../../assets/Weather.png"
@@ -36,7 +37,7 @@ const Portfolio = () => {
           </div>
           <h3>Weather App</h3>
           <div className="project_item_cta">
-              <a href="https://github.com/rahuldas200/Weather_App.git" className='btn'>Github</a>
+              <a href="https://github.com/rahuldas200/Weather_App.git" className='btn '>Github</a>
           </div>
         </article>
        

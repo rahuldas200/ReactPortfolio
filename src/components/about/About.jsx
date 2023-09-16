@@ -8,14 +8,15 @@ import {VscFolderLibrary} from 'react-icons/vsc';
 
 const about = () => {
   return (
-    <section id='about'>
-      <h5>Get to know</h5>
-      <h2>About Me</h2>
+    <section id='about' className='about'>
+
+        <h5 className='about_h5'>Get to know</h5>
+        <h2 className='about_h2'>About Me</h2>
 
       <div className="container about_container">
         <div className="about_me">
             <div className="about_me_img">
-              <img src={ME} alt="About Image" />
+              <img className='img_about' src={ME} alt="About Image" />
             </div>
         </div>
 
@@ -24,19 +25,19 @@ const about = () => {
             <article className='about_card'>
               <FaAward className= "about_icon"/>
               <h5>Exprience</h5>
-              <small> Fresher</small>
+              <small className='about_card_small'> Fresher</small>
             </article>
 
             <article className='about_card'>
               <VscFolderLibrary className= "about_icon"/>
-              <h5>projects</h5>
-              <small> 3+ projects done</small>
+              <h5>Projects</h5>
+              <small className='about_card_small'> 3+ Projects done</small>
             </article>
 
           </div>
           
 
-          <p>I am a punctual and motivated individual who can work in a busy environment and produce high work standards.
+          <p className='about_p'>I am a punctual and motivated individual who can work in a busy environment and produce high work standards.
               I am an excellent team worker who can take instructions from all levels and build good working relationships with
               colleagues. I am flexible, and reliable and possess excellent timekeeping skills.</p>
           <a href="#contact" className='btn btn-primary'>Let's Talk</a>
